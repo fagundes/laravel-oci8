@@ -17,10 +17,12 @@
         <ini name="intl.default_locale" value="C.UTF-8"/>
         <ini name="memory_limit" value="2048M"/>
         <env name="DB_CONNECTION" value="testing"/>
-        <!--
-        <env name="REDIS_HOST" value="127.0.0.1" />
-        <env name="REDIS_PORT" value="6379" />
-        -->
+        <env name="DB_HOST" value="localhost"/>
+        <env name="DB_PORT" value="1521"/>
+        <env name="DB_DATABASE" value="xe"/>
+        <env name="DB_SERVICE_NAME" value="xe"/>
+        <env name="DB_USERNAME" value="system"/>
+        <env name="DB_PASSWORD" value="oracle"/>
     </php>
     <source>
         <exclude>
